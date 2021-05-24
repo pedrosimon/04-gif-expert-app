@@ -12,7 +12,7 @@ const GifGridItem = ({ img }) => {
 };
 
 GifGridItem.propTypes = {
-  img: PropTypes.object,
+  img: PropTypes.object.isRequired,
 };
 
 export default GifGridItem;
